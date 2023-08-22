@@ -1,6 +1,8 @@
 import static org.junit.Assert.assertEquals;
 import org.joda.time.LocalTime;
 import org.junit.Test;
+import hello.Greeter;
+import hello.HelloWorld; // Add this import statement
 
 public class HelloWorldTest {
 
