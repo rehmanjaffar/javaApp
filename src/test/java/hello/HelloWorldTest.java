@@ -17,7 +17,7 @@ public class HelloWorldTest {
     @Test
     public void testGreeter() {
         Greeter greeter = new Greeter();
-        String expected = "DevOps Project for Systems Limited";
+        String expected = "DevOps Project for Systems Limited ";
         String actual = greeter.sayHello();
         assertEquals(expected, actual);
     }
