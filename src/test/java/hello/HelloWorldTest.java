@@ -3,7 +3,7 @@ import org.joda.time.LocalTime;
 import org.junit.Test;
 import hello.Greeter;
 import hello.HelloWorld;
-@Test
+
 public class HelloWorldTest {
 
     @Test
