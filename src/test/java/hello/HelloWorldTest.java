@@ -4,9 +4,10 @@ import org.junit.Test;
 import hello.Greeter;
 import hello.HelloWorld;
 
-public class HelloWorldTest {
+
 
     @Test
+public class HelloWorldTest {
     public void testCurrentTimeMessage() {
         // Create a fixed time for testing purposes
         LocalTime fixedTime = new LocalTime(12, 0, 0);
