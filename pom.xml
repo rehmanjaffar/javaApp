@@ -29,11 +29,11 @@
     </dependencies>
 
     <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <url>http://74.235.136.21:8081/repository/maven-public</url>
-        </repository>
-    </distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://74.235.136.21:8081/nexus/content/repositories/snapshots</url>
+   </snapshotRepository>
+</distributionManagement>
 
     <build>
         <plugins>
