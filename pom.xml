@@ -35,11 +35,11 @@
         <name>Releases</name>
         <url>http://74.235.136.21:8081/repository/maven-releases/</url>
     </repository>
-    <repository>
+    <snapshotRepository>
         <id>nexus</id>
         <name>Snapshots</name>
         <url>http://74.235.136.21:8081/repository/maven-snapshots/</url>
-    </repository>
+    </snapshotRepository>
 </distributionManagement>
     <build>
         <plugins>
